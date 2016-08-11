@@ -1,2 +1,0 @@
-FROM-SUBUSER-IMAGE iceweasel@default
-RUN apt-get update && apt-get upgrade -y && apt-get install -y PKG
