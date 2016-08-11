@@ -1,7 +1,7 @@
 Subuser iceweasel-flashplugin
 -----------------------------
 
-A subuser build with the `flashplugin-nonfree` package installed (based on Debian Jessie).
+A subuser build of the Iceweasel web browser with the `flashplugin-nonfree` package installed. The build is based on Debian Jessie.
 
 Please note that Flash Player is non-free software and the package installation is subjected to the acceptance of the license agreement available on [adobe.com](https://adobe.com).
 
