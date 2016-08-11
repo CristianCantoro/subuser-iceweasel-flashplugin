@@ -1,0 +1,5 @@
+FROM-SUBUSER-IMAGE iceweasel@default
+RUN apt-get update && apt-get upgrade -yq
+ADD check-for-updates /subuser/check-for-updates
+RUN echo "deb http://ftp.debian.org/debian/ jessie main contrib non-free\ndeb-src http://ftp.debian.org/debian/ jessie main contrib non-free" >> /etc/apt/sources.list.d/nonfree.list
+RUN apt-get update && apt-get install -yq flashplugin-nonfree
